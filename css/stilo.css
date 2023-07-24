@@ -1,0 +1,45 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+  }
+  #catalogo {
+    width: 20%;
+  }
+  table {
+    width: 100%;
+  }
+  #recibo {
+    width: 50%;
+    border: 5px solid #dd1390;
+    padding: 10px;
+    margin-top: 20px;
+  }
+  #recibo table {
+    width: 100%;
+  }
+  #recibo th, #recibo td {
+    text-align: left;
+    padding: 5px;
+  }
+  #recibo h2{
+    text-align: center;
+
+  }
+
+  #recibo tr:last-child {
+    font-weight: bold;
+  }
+  span.editable {
+    display: inline-block;
+    min-width: 50px;
+    border: 1px solid #e90d86;
+    padding: 2px 5px;
+    cursor: pointer;
+  }
+  span.editable:hover {
+    background-color: #7412f5;
+  }

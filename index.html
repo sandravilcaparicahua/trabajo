@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tienda de Juguetes</title>
+  <link rel="stylesheet" href="css/stilo.css">
+
+</head>
+
+<body>
+  <th>Tienda Jugueteria</th>
+  <div id="catalogo">
+    <table border="1px">
+      <tr>
+        <th>N°</th>
+        <th>Juguetes</th>
+        <th>Precio S/</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Monopolio</td>
+        <td data-precio="70.99">70.99</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Ajedrez</td>
+        <td data-precio="78.99">78.99</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Lego</td>
+        <td data-precio="100.99">100.99</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Dama</td>
+        <td data-precio="58.50">58.50</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Laberinto</td>
+        <td data-precio="35.00">35.00</td>
+      </tr>
+    </table>
+  </div>
+  <div id="recibo">
+    <table border="1px">
+    <h2>Recibo</h2>
+    <table>
+      <tr>
+        <th>Producto</th>
+        <th>Cantidad</th>
+        <th>Precio</th>
+        <th>Subtotal</th>
+      </tr>
+      <tr>
+        <td id="producto">Monopolio</td>
+        <td id="cantidad">1</td>
+        <td id="precio">70.99</td>
+        <td id="subtotal">70.99</td>
+      </tr>
+      <tr>
+        <td colspan="3">Descuento (20%)</td>
+        <td id="descuento">-14.20</td>
+      </tr>
+      <tr>
+        <td colspan="3">Total</td>
+        <td id="total">56.79</td>
+      </tr>
+    </table>
+  </table>
+  </div>
+  <script src="js/calcular.js"></script>
+</body>
+</html>
